@@ -1,5 +1,6 @@
 ﻿using tabuleiro;
 
+
 namespace xadrez_console.xadrez
 {
     internal class Torre : Peca 
@@ -8,6 +9,7 @@ namespace xadrez_console.xadrez
         {
 
         }
+      
 
         public override string ToString()
         {

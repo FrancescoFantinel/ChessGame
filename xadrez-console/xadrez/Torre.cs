@@ -1,7 +1,6 @@
 ﻿using tabuleiro;
 
-
-namespace xadrez_console.xadrez
+namespace xadrez
 {
     internal class Torre : Peca
     {

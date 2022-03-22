@@ -2,7 +2,7 @@
 using tabuleiro;
 using xadrez;
 using xadrez_console;
-using xadrez_console.xadrez;
+
 
 try
 {

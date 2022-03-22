@@ -1,7 +1,6 @@
 ﻿using tabuleiro;
 
-
-namespace xadrez_console.xadrez
+namespace xadrez
 {
     internal class Peao : Peca
     {
@@ -19,7 +18,7 @@ namespace xadrez_console.xadrez
         private bool existeInimigo(Posicao pos)
         {
             Peca p = tab.peca(pos);
-            return p != null || p.cor != cor;
+            return p != null && p.cor != cor;
 
         }
 
